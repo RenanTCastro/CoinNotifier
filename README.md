@@ -28,7 +28,15 @@ Um bot simples para enviar alertas no Telegram sempre que uma criptomoeda tem um
    npm install
 
 3. Em um arquivo .env insira suas keys e tokens dos serviços utilizados.
+   ```bash
+   BINANCE_API_KEY =
+   BINANCE_SECRET_KEY = 
    
+   SUPABASE_URL = 
+   SUPABASE_KEY = 
+   
+   TELEGRAM_TOKEN =
+   TELEGRAM_CHAT_ID = 
 4. Execute o bot:
    ```bash
    npm start
